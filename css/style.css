@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #000;
 }
@@ -82,22 +83,20 @@ body {
 .service {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    width: 17%;
 }
 .service img{
     position: relative;
-    left: 20%;
+    left: 33%;
     width: 58px;
     padding-bottom: 20px;
-    /* background: url(../img/shopping-cart.png) no-repeat; */
 }
 .delivery img {
     padding-bottom: 15px;
 }
 .service + .service  {
     margin-left: 9%;
-}
-.service {
-    width: 17%;
 }
 .customers__title {
     padding-bottom: 80px;
@@ -109,6 +108,6 @@ body {
     margin: 0 20px;
 }
 .customers__board img {
-    max-width: 23%;
+    max-width: 250px;
     padding-bottom: 40px;
 }
